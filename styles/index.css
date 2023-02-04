@@ -1,0 +1,155 @@
+.indeximages{
+  height: 150px;
+  width: 150px;
+  border-radius: 25%;
+  box-shadow: 10px 10px 10px grey;
+
+}
+.indeximages:hover{
+  filter: brightness(50%); 
+  
+}
+
+.indeximages:hover + .text1Sty {
+  visibility: visible;
+ }
+
+ .indeximages:hover + .text2Sty {
+  visibility: visible;
+ }
+
+ .indeximages:hover + .text3Sty {
+  visibility: visible;
+ }
+
+ .indeximages:hover + .text4Sty {
+  visibility: visible;
+  
+ }
+ .indeximages:hover + .text5Sty {
+  visibility: visible;
+ }
+
+ .indeximages:hover + .text6Sty {
+  visibility: visible;
+ }
+
+ .indeximages:hover + .text7Sty {
+  visibility: visible;
+ }
+
+ .indeximages:hover + .text8Sty {
+  visibility: visible;
+  
+ }
+
+
+
+ .text1Sty{
+  position: relative;
+  bottom: 45%;
+  left:25%;
+  color: #f1f1f1;
+  visibility: hidden;
+}
+
+.text2Sty{
+  position: relative;
+  bottom: 48%;
+  left:28%;
+  color: #f1f1f1; 
+  visibility: hidden;
+}
+
+.text3Sty{
+  position: relative;
+  bottom: 45%;
+  left:18%;
+  color: #f1f1f1;
+  visibility: hidden;
+}
+
+.text4Sty{
+  position: relative;
+  bottom: 45%;
+  left:24%;
+  color: #f1f1f1;
+  visibility: hidden;
+}
+.text5Sty{
+  position: relative;
+  bottom: 45%;
+  left:23%;
+  color: #f1f1f1;
+  visibility: hidden;
+}
+
+.text6Sty{
+  position: relative;
+  bottom: 48%;
+  left:27%;
+  color: #f1f1f1; 
+  visibility: hidden;
+}
+
+.text7Sty{
+  position: relative;
+  bottom: 45%;
+  left:26%;
+  color: #f1f1f1;
+  visibility: hidden;
+}
+
+.text8Sty{
+  position: relative;
+  bottom: 45%;
+  left:18%;
+  color: #f1f1f1;
+  visibility: hidden;
+}
+
+#inputCity{
+  background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg'); 
+  height: 380px;  
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  
+}
+
+#searchBar{
+    position: relative;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    border: 1px solid transparent;
+    background-color: #f1f1f1; 
+    outline: none;
+    padding : 10px; 
+    font-size: 16px; 
+    border-radius: 12px; 
+    text-align: start;
+}
+
+
+.mm{
+  padding-bottom: 20%;
+}
+.container1{
+  padding-left: 30% !important;
+}
+
+
+@media only screen and (min-width: 736px){
+  .container1{
+    padding-left: 16% !important;
+  }
+}
+
+@media only screen and (min-width: 900px){
+  .container1{
+    padding-left: 8% !important;
+  }
+}

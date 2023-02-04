@@ -1,0 +1,46 @@
+.Image{
+    height:200px;
+    width:250px;
+}
+#list-view{
+    scroll-behavior: smooth;
+  }
+  #map-view{
+    scroll-behavior: smooth;
+    
+   } 
+   .imagesView{
+    margin: 2%;
+    background-color: lightgray; 
+    width: 43%;
+    float: left;
+    display: flex;
+ }  
+ .imagesView:hover{
+    background-color: rosybrown;
+}
+
+
+.viewsty{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
+}
+
+h3,p{
+    text-decoration: none;
+    color: black;
+}
+#navbar{
+    
+    position: relative;
+    top: 56%;
+    left: 41%;
+    transform: translate(-50%,-50%);
+}
+
+.container{
+    display: grid;
+   
+  }
